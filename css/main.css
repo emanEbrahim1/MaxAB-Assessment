@@ -1,0 +1,567 @@
+body{
+    font-family: Cairo;
+    direction: rtl;
+}
+
+.Logo{
+    width: 50%;
+}
+.addContainer{
+    /*position: absolute;*/
+    width: 330px;
+    margin-top: 20px;
+    background-image: url("../Public/Rectangle 939.png");
+    transform: rotate(-3.91deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:72px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 15px;
+    z-index: 0.5;
+}
+
+.addContainer p{
+    /*font-family: Cairo;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.8858px;
+    line-height: 45px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Gray / 25 */
+
+    margin-bottom: 0;
+    color: #FCFCFD;
+
+    transform: rotate(-0.23deg);
+}
+
+.prodContainer{
+    border: 2.5px solid #F2AA00;
+
+    position: absolute;
+    width: 350px;
+    /*right: 32px;*/
+    top: 230px;
+
+    padding-top: 30px;
+
+    /* Gray / 25 */
+
+    z-index: -1;
+    background: #FCFCFD;
+    border-radius:15px;
+
+    /*transform: rotate(-3.91deg);*/
+}
+
+.prodContainer img.prodImg{
+    width: 90px;
+}
+
+p.prodName{
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height */
+
+    /*text-align: center;*/
+    letter-spacing: 0.02em;
+
+    /* Primary/800 */
+
+    color: #154774;
+}
+
+.prodContainer a{
+    font-size: 15px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+.newProdCont{
+    top: 100px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.product p {
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+
+    /* Primary/500 */
+
+    color: #2376C2;
+    margin-top: 45px;
+}
+
+.addProdContainer{
+    width: 700px;
+    margin-top: 20px;
+    background-image: url("../Public/Vector4.png");
+    /*transform: rotate(-3.91deg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:165px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.addProdContainer p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 45px;
+    /* identical to box height */
+
+    transform: rotate(-5.73deg);
+
+    letter-spacing: 0.02em;
+
+    /* Gray / 25 */
+
+    margin-bottom: 0;
+    color: #FCFCFD;
+}
+
+.productContainer{
+    border: 2.5px solid #F2AA00;
+
+    position: absolute;
+    width: 720px;
+    /*right: 32px;*/
+    top: 600px;
+
+    height: 800px;
+    padding-top: 30px;
+
+    transform: skewY(-10deg);
+    /* Gray / 25 */
+
+    z-index: -1;
+    background: #FCFCFD;
+    border-radius:15px;
+
+    /*transform: rotate(-3.91deg);*/
+}
+.header{
+    text-align: right;
+    width: 100%;
+    background: #2376C2;
+    padding-right: 34px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.header p{
+    color:#FFFFFF ;
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.header p:first-child{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card{
+    border-radius: 15px;
+    border-color: #FFFFFF;
+}
+
+.card small{
+    color: #667085;
+}
+
+.horiCard{
+    border-radius: 2px;
+    background: #F2F4F7;
+    border-color: #F2F4F7;
+}
+
+.horiCard p.card-text{
+    color: #12B76A;
+}
+
+.horiCard p.card-text span {
+    color: #98A2B3;
+    text-decoration-line: line-through;
+    margin-right: 10px;
+}
+
+.badge{
+    position: absolute;
+    right:90%;
+    color: #FFFFFF;
+    background: #12B76A;
+    /*text-align: right;*/
+    /*mix-blend-mode: overlay;*/
+    /*transform: matrix(1, 0, 0, -1, 0, 0);*/
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    width: 75px;
+    border-top-right-radius:60px;
+    border-bottom-right-radius: 60px;
+
+}
+
+.horiCard img{
+    width: 90px;
+    height: 90px;
+}
+
+.vertCard img{
+    height: 123px;
+}
+
+
+.header1{
+    padding-top: 40px;
+    padding-right: 40px;
+
+    background-image: url("../Public/Vector.png"),
+    radial-gradient(86.69% 133.64% at 5.45% 44.66%,
+            rgba(35, 118, 194, 0.125) 0%,
+            rgba(255, 255, 255, 0.25) 51.56%,
+            rgba(35, 118, 194, 0.125));
+    background-blend-mode: soft-light;
+}
+
+img.spices{
+    position: absolute;
+    left: 120px;
+    bottom: -5px;
+    z-index: 1;
+}
+
+img.macr{
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+
+p.add{
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 30px;
+
+    margin-top: 40px;
+
+    /*text-align: right;*/
+    letter-spacing: 0.02em;
+
+    color: #101828;
+
+}
+
+.accordion .card{
+    background: #E4E7EC;
+}
+
+.accordion .card button{
+    font-family: Cairo;
+    font-size: 25px;
+    color: #000000;
+
+}
+
+.accordion .card button i{
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.accordion .card-body input{
+    width: 15px;
+    height: 15px;
+}
+
+div.form-check{
+    margin-bottom: 1.5rem;
+}
+button.btn-link{text-decoration: none}
+button.btn-link:hover,button.btn-link:focus{text-decoration: none}
+.accordion .card-body label{
+    font-family: Cairo;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.spices-values p{
+    font-family: Cairo;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    margin-top: 70px;
+    color: #000000;
+}
+
+.spices-values p:first-child{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+div.itemBox{
+    background: #E4E7EC;
+    border: 0;
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+div.itemBox p{
+    font-family: Cairo;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.02em;
+    color: #000000 !important;
+}
+
+button.tryButton{
+    background: #2376C2;
+    font-size: 30px;
+    width: 94%;
+    bottom: 20px;
+    color: #FFFFFF;
+    padding: 25px;
+    font-family: Cairo;
+    position: fixed;
+    left: 50px;
+    right: 0;
+}
+@media (max-width: 1200px){
+    .Logo{
+        width: 100%;
+    }
+    .addContainer{
+        width: 600px;
+        height:130px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 15%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .addContainer p{
+        /*font-family: Cairo;*/
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 45px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
+
+        /* Gray / 25 */
+
+        margin-bottom: 0;
+        color: #FCFCFD;
+
+        transform: rotate(-0.23deg);
+    }
+
+    .prodContainer{
+        width: 720px;
+        height: 200px;
+        top: 310px;
+    }
+
+    .newProdCont{
+        top: 100px;
+    }
+    .prodContainer img.prodImg{
+        width: 150px;
+    }
+    p.prodName{
+        font-family: Cairo;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        /* identical to box height */
+
+        /*text-align: center;*/
+        letter-spacing: 0.02em;
+
+        /* Primary/800 */
+
+        color: #154774;
+    }
+
+    .prodContainer a{
+        font-size: 25px;
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+
+    .prodContainer2{
+        position: relative;
+    }
+    .header{
+        height: 62vh;
+        width: 103vw;
+    }
+
+    .header p{
+        font-size: 48px;
+    }
+
+    .header p:first-child{
+        font-size: 70px;
+    }
+
+    .horiCard{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .horiCard img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .horiCard h5.card-title{
+        font-size: 35px;
+    }
+    .horiCard p.card-text{
+        font-size: 30px;
+    }
+
+    .badge{
+        position: absolute;
+        right:84%;
+        width: 90px;
+        top:0;
+    }
+
+    .vertCard{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vertCard .card-body{
+        flex: none;
+    }
+
+    .vertCard img{
+        height: 200px;
+    }
+
+    .vertCard .card-title{
+        font-size: 25px;
+    }
+
+    .vertCard p{
+        font-size: 30px;
+    }
+    .vertCard a{
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .accordion .card{
+        background: #E4E7EC;
+    }
+
+    .accordion .card button{
+        font-size: 35px;
+    }
+
+    .accordion .card-body input{
+        width: 25px;
+        height: 25px;
+    }
+    .accordion .card-body label{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 980px){
+    .header{
+        height: 40vw;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header p{
+        font-size: 50px;
+    }
+
+    .header p:first-child{
+        font-size: 70px;
+    }
+
+    .horiCard{
+        height: 25vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .horiCard img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .horiCard h5.card-title{
+        font-size: 35px;
+    }
+    .horiCard p.card-text{
+        font-size: 30px;
+    }
+
+    .badge{
+        position: absolute;
+        right:90.5%;
+        width: 90px;
+        top:0;
+    }
+
+    .header1{
+        padding-top: 85px;
+        padding-right: 40px;
+    }
+}
+
