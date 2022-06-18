@@ -21,10 +21,10 @@ I don't know the approach "Logic" on it but I do it as I understand it. {
 
 
 This is an online version to see it on mobile..
-https://maxab-assisment.netlify.app/ 
+https://maxab-assessment.netlify.app/ 
 
--Part1: https://maxab-assisment.netlify.app/
-- Part1-1 : https://maxab-assisment.netlify.app/product
-- Part2 : https://maxab-assisment.netlify.app/part2
-- Part3 : https://maxab-assisment.netlify.app/part3
-- Part4 : https://maxab-assisment.netlify.app/part4
+-Part1:https://maxab-assessment.netlify.app/ 
+- Part1-1 : https://maxab-assessment.netlify.app/product
+- Part2 : https://maxab-assessment.netlify.app/part2
+- Part3 : https://maxab-assessment.netlify.app/part3
+- Part4 : https://maxab-assessment.netlify.app/part4
