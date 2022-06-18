@@ -2,7 +2,7 @@
 
 You Can see all parts in your localhost by open any .html file on your browser.
 
-Part1 :
+Part1 && Part4 :
 -- 
 Design and Sizes are for mobile application so it is not working well in labtop screen try open it on mobile or tablet.
 
@@ -19,6 +19,7 @@ I don't know the approach "Logic" on it but I do it as I understand it. {
   - and so on with another sections "المكرونات , .... ".
 }. If that approach isn't correct please let me know.
 
+The first section its background is a degree of red color, but in design the rgb is a degree of blue color.
 
 This is an online version to see it on mobile..
 https://maxab-assessment.netlify.app/ 
